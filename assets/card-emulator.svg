@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="250" viewBox="0 0 500 250" role="img" aria-label="Sellora Emulator: Lightweight Android for low-end Windows PCs. One click, no Android Studio.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1124"/><stop offset="1" stop-color="#111a33"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#10b981"/><stop offset="1" stop-color="#06b6d4"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#10b981" stop-opacity="0.7"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.06"/><stop offset="1" stop-color="#06b6d4" stop-opacity="0.5"/></linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter>
+    <clipPath id="clip"><rect width="500" height="250" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="500" height="250" fill="url(#bg)"/>
+    <circle cx="460" cy="260" r="110" fill="url(#accent)" opacity="0.28" filter="url(#blur)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-60 -30;0 0" dur="12s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <rect x="1" y="1" width="498" height="248" rx="19" fill="none" stroke="url(#edge)" stroke-width="2"/>
+
+  <rect x="28" y="26" width="64" height="64" rx="16" fill="url(#accent)"/>
+  <g transform="translate(60 58)"><rect x="-15" y="-24" width="30" height="48" rx="6" fill="none" stroke="#fff" stroke-width="3"/><path d="M-5 -8 L8 0 L-5 8 Z" fill="#fff"/></g>
+
+  <text x="108" y="54" font-family="'Segoe UI', Inter, 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#f8fafc">Sellora Emulator</text>
+  <text x="108" y="80" font-family="Consolas, 'SF Mono', Menlo, 'Courier New', monospace" font-size="14" fill="#94a3b8">android emulator</text>
+
+  <rect x="351" y="25" width="125" height="26" rx="13" fill="#34d399" fill-opacity="0.12" stroke="#34d399" stroke-opacity="0.5"/>
+  
+  <circle cx="366" cy="38" r="4" fill="#34d399"/>
+  <text x="377" y="43" font-family="'Segoe UI', Inter, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#34d399">Open source</text>
+
+  <g font-family="'Segoe UI', Inter, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#cbd5e1"><text x="28" y="142">Lightweight Android for low-end Windows</text><text x="28" y="167">PCs. One click, no Android Studio.</text></g>
+  <g font-family="Consolas, 'SF Mono', Menlo, 'Courier New', monospace" font-size="13" fill="#e2e8f0"><rect x="28" y="198" width="102" height="26" rx="13" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/><text x="79" y="216" text-anchor="middle">PowerShell</text><rect x="138.0" y="198" width="52" height="26" rx="13" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/><text x="164" y="216" text-anchor="middle">QEMU</text><rect x="197.6" y="198" width="77" height="26" rx="13" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/><text x="236" y="216" text-anchor="middle">Android</text></g>
+</svg>

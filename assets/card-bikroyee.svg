@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="250" viewBox="0 0 500 250" role="img" aria-label="Bikroyee: Replies to customers 24/7, takes orders and flags likely fraud, for online sellers.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1124"/><stop offset="1" stop-color="#111a33"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#06b6d4"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b5cf6" stop-opacity="0.7"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.06"/><stop offset="1" stop-color="#06b6d4" stop-opacity="0.5"/></linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter>
+    <clipPath id="clip"><rect width="500" height="250" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="500" height="250" fill="url(#bg)"/>
+    <circle cx="460" cy="260" r="110" fill="url(#accent)" opacity="0.28" filter="url(#blur)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-60 -30;0 0" dur="12s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <rect x="1" y="1" width="498" height="248" rx="19" fill="none" stroke="url(#edge)" stroke-width="2"/>
+
+  <rect x="28" y="26" width="64" height="64" rx="16" fill="url(#accent)"/>
+  <g transform="translate(60 58)"><path d="M-22 -16 h44 a6 6 0 0 1 6 6 v20 a6 6 0 0 1 -6 6 h-28 l-12 10 v-10 h-4 a6 6 0 0 1 -6 -6 v-20 a6 6 0 0 1 6 -6z" fill="none" stroke="#fff" stroke-width="3" stroke-linejoin="round"/><path d="M0 -9 l3 7 l7 3 l-7 3 l-3 7 l-3 -7 l-7 -3 l7 -3z" fill="#fff"/></g>
+
+  <text x="108" y="54" font-family="'Segoe UI', Inter, 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#f8fafc">Bikroyee</text>
+  <text x="108" y="80" font-family="Consolas, 'SF Mono', Menlo, 'Courier New', monospace" font-size="14" fill="#94a3b8">AI sales agent</text>
+
+  <rect x="412" y="25" width="64" height="26" rx="13" fill="#34d399" fill-opacity="0.12" stroke="#34d399" stroke-opacity="0.5"/>
+  <circle cx="427" cy="38" r="5" fill="#34d399"><animate attributeName="r" values="5;11;5" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.6;0;0.6" dur="2s" repeatCount="indefinite"/></circle>
+  <circle cx="427" cy="38" r="4" fill="#34d399"/>
+  <text x="438" y="43" font-family="'Segoe UI', Inter, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#34d399">Live</text>
+
+  <g font-family="'Segoe UI', Inter, 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#cbd5e1"><text x="28" y="142">Replies to customers 24/7, takes orders</text><text x="28" y="167">and flags likely fraud, for online sellers.</text></g>
+  <g font-family="Consolas, 'SF Mono', Menlo, 'Courier New', monospace" font-size="13" fill="#e2e8f0"><rect x="28" y="198" width="77" height="26" rx="13" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/><text x="66" y="216" text-anchor="middle">FastAPI</text><rect x="112.80000000000001" y="198" width="68" height="26" rx="13" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/><text x="147" y="216" text-anchor="middle">Celery</text><rect x="189.20000000000002" y="198" width="102" height="26" rx="13" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/><text x="240" y="216" text-anchor="middle">PostgreSQL</text><rect x="299.20000000000005" y="198" width="77" height="26" rx="13" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.14"/><text x="338" y="216" text-anchor="middle">Next.js</text></g>
+</svg>

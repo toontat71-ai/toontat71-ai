@@ -1,29 +1,57 @@
-## Hi, we're Sellora Tech
+<p align="center">
+  <img src="assets/banner.svg" width="100%" alt="Sellora Tech: AI sales agents, restaurant systems and open-source tools, built in Bangladesh">
+</p>
 
-We build software for small businesses in Bangladesh: an AI sales agent for
-online sellers, an all-in-one restaurant system, and open-source tools for
-developers on low-end PCs.
+<p align="center">
+  We build software that small businesses in Bangladesh can actually afford:<br>
+  an AI that sells for you, a restaurant system that runs the whole floor,<br>
+  and open-source tools that run on any PC.
+</p>
 
-📍 Bangladesh
+<h2 align="center">What we're building</h2>
 
-### Projects
+<p align="center">
+  <img src="assets/card-bikroyee.svg" width="49%" alt="Bikroyee: AI sales agent for online sellers. Live.">
+  <img src="assets/card-amar-restora.svg" width="49%" alt="Amar Restora (আমার রেস্তোরাঁ): restaurant system. In development.">
+</p>
+<p align="center">
+  <a href="https://github.com/toontat71-ai/sellora-emulator">
+    <img src="assets/card-emulator.svg" width="49%" alt="Sellora Emulator: lightweight Android emulator for low-end Windows PCs. Open source.">
+  </a>
+</p>
 
-| Project | What it does | Built with | Status |
-|---|---|---|---|
-| **[Sellora Emulator](https://github.com/toontat71-ai/sellora-emulator)** | A lightweight Android emulator for low-end Windows PCs. One-click setup, no Android Studio or Java needed. | PowerShell, QEMU | Open source |
-| **Bikroyee** | An AI sales agent for online sellers. It answers customers around the clock, takes orders and flags likely fraud. | Python, FastAPI, Celery, PostgreSQL, Redis, Next.js, Capacitor | Live · private |
-| **Amar Restora** (আমার রেস্তোরাঁ) | One system for a whole restaurant: POS, QR table ordering, kitchen screen, guest pagers, and automatic bKash/Nagad payment checks. | Next.js, React, TypeScript, Drizzle, PostgreSQL | In development · private |
+<h2 align="center">Tech stack</h2>
 
-### Tech we use
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
+  <br>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis">
+  <img src="https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white" alt="Celery">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android">
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell">
+</p>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
+<h2 align="center">About us</h2>
+
+```ts
+const selloraTech = {
+  basedIn:  "Bangladesh",
+  building: ["Bikroyee", "Amar Restora", "Sellora Emulator"],
+  payments: ["bKash", "Nagad"],
+  backend:  ["Python", "FastAPI", "Celery", "PostgreSQL", "Redis"],
+  frontend: ["TypeScript", "Next.js", "React", "Tailwind"],
+  shipsWith: "Docker",
+  belief:   "Great software shouldn't need a great PC or a big budget.",
+};
+```
+
+<p align="center">
+  <img src="assets/footer.svg" width="100%" alt="Built in Bangladesh. Thanks for visiting.">
+</p>

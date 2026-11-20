@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Sellora Tech: AI sales agents, restaurant systems and open-source tools, built in Bangladesh">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b1a"/>
+      <stop offset="1" stop-color="#0f1733"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#67e8f9"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#34d399"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.3 0;0.3 0;-0.3 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="bubble" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#67e8f9" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0.15"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="340" rx="24"/></clipPath>
+    <clipPath id="screen"><rect x="905" y="52" width="190" height="236" rx="18"/></clipPath>
+
+    <!-- typing reveal: each line types, holds, erases; 3 lines over a 12 s loop -->
+    <clipPath id="t1"><rect x="80" y="196" height="40" width="0">
+      <animate attributeName="width" dur="12s" repeatCount="indefinite"
+        values="0;576;576;0;0" keyTimes="0;0.12;0.29;0.33;1"/></rect></clipPath>
+    <clipPath id="t2"><rect x="80" y="196" height="40" width="0">
+      <animate attributeName="width" dur="12s" repeatCount="indefinite"
+        values="0;0;560;560;0;0" keyTimes="0;0.333;0.453;0.623;0.663;1"/></rect></clipPath>
+    <clipPath id="t3"><rect x="80" y="196" height="40" width="0">
+      <animate attributeName="width" dur="12s" repeatCount="indefinite"
+        values="0;0;560;560;0;0" keyTimes="0;0.666;0.786;0.956;0.996;1"/></rect></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <rect width="1200" height="340" fill="url(#grid)"/>
+
+    <!-- drifting glow blobs -->
+    <g filter="url(#blur)" opacity="0.55">
+      <circle cx="180" cy="60" r="150" fill="#7c3aed">
+        <animateTransform attributeName="transform" type="translate" values="0 0;90 50;0 0" dur="14s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="760" cy="300" r="170" fill="#0891b2">
+        <animateTransform attributeName="transform" type="translate" values="0 0;-110 -40;0 0" dur="18s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1080" cy="40" r="120" fill="#059669">
+        <animateTransform attributeName="transform" type="translate" values="0 0;-60 70;0 0" dur="16s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- left: text -->
+    <text x="82" y="92" font-family="Consolas, 'SF Mono', Menlo, 'Courier New', monospace" font-size="15" letter-spacing="4" fill="#94a3b8">HELLO WORLD, WE ARE</text>
+    <text x="78" y="168" font-family="'Segoe UI', Inter, 'Helvetica Neue', Arial, sans-serif" font-size="84" font-weight="800" fill="url(#title)" filter="url(#glow)">Sellora Tech</text>
+
+    <g font-family="Consolas, 'SF Mono', Menlo, 'Courier New', monospace" font-size="27" fill="#e2e8f0">
+      <text x="80" y="226" textLength="576" lengthAdjust="spacingAndGlyphs" clip-path="url(#t1)"><tspan fill="#34d399">&gt;</tspan> AI sales agents for online sellers</text>
+      <text x="80" y="226" textLength="560" lengthAdjust="spacingAndGlyphs" clip-path="url(#t2)"><tspan fill="#34d399">&gt;</tspan> Restaurant systems for Bangladesh</text>
+      <text x="80" y="226" textLength="560" lengthAdjust="spacingAndGlyphs" clip-path="url(#t3)"><tspan fill="#34d399">&gt;</tspan> Open-source tools for low-end PCs</text>
+    </g>
+    <!-- cursor follows the typing -->
+    <rect y="203" width="13" height="28" fill="#67e8f9" x="84">
+      <animate attributeName="x" dur="12s" repeatCount="indefinite"
+        values="84;664;664;84;84;648;648;84;84;648;648;84;84"
+        keyTimes="0;0.12;0.29;0.33;0.333;0.453;0.623;0.663;0.666;0.786;0.956;0.996;1"/>
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+
+    <g font-family="'Segoe UI', Inter, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#cbd5e1">
+      <rect x="80" y="262" width="150" height="34" rx="17" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>
+      <circle cx="100" cy="279" r="5" fill="#34d399">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="114" y="284">Bangladesh</text>
+      <rect x="242" y="262" width="210" height="34" rx="17" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>
+      <text x="262" y="284">AI · SaaS · Dev tools</text>
+    </g>
+
+    <!-- right: phone with a live chat -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="6s" repeatCount="indefinite"/>
+      <rect x="893" y="36" width="214" height="268" rx="30" fill="#0b1124" stroke="url(#edge)" stroke-width="2"/>
+      <rect x="975" y="44" width="50" height="6" rx="3" fill="#1e293b"/>
+      <g clip-path="url(#screen)">
+        <rect x="905" y="52" width="190" height="236" fill="#0f172a"/>
+        <rect x="905" y="52" width="190" height="34" fill="#111c35"/>
+        <circle cx="925" cy="69" r="9" fill="url(#bubble)"/>
+        <rect x="940" y="62" width="70" height="7" rx="3.5" fill="#cbd5e1" fill-opacity="0.8"/>
+        <rect x="940" y="73" width="40" height="5" rx="2.5" fill="#34d399" fill-opacity="0.8"/>
+
+        <!-- 8 s chat loop: customer, typing, AI, customer, AI -->
+        <g opacity="0">
+          <animate attributeName="opacity" dur="8s" repeatCount="indefinite" values="0;1;1;0" keyTimes="0;0.05;0.9;1"/>
+          <rect x="915" y="98" width="110" height="30" rx="12" fill="#1e293b"/>
+          <rect x="926" y="109" width="80" height="8" rx="4" fill="#94a3b8"/>
+        </g>
+        <g opacity="0">
+          <animate attributeName="opacity" dur="8s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.12;0.15;0.28;0.3;1"/>
+          <rect x="1035" y="138" width="50" height="24" rx="12" fill="#1e293b"/>
+          <circle cx="1049" cy="150" r="3" fill="#94a3b8"><animate attributeName="cy" values="150;146;150" dur="0.6s" repeatCount="indefinite"/></circle>
+          <circle cx="1060" cy="150" r="3" fill="#94a3b8"><animate attributeName="cy" values="150;146;150" dur="0.6s" begin="0.15s" repeatCount="indefinite"/></circle>
+          <circle cx="1071" cy="150" r="3" fill="#94a3b8"><animate attributeName="cy" values="150;146;150" dur="0.6s" begin="0.3s" repeatCount="indefinite"/></circle>
+        </g>
+        <g opacity="0">
+          <animate attributeName="opacity" dur="8s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;0.3;0.33;0.9;1"/>
+          <rect x="975" y="138" width="110" height="42" rx="12" fill="url(#bubble)"/>
+          <rect x="986" y="148" width="88" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.9"/>
+          <rect x="986" y="162" width="60" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.7"/>
+        </g>
+        <g opacity="0">
+          <animate attributeName="opacity" dur="8s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;0.48;0.51;0.9;1"/>
+          <rect x="915" y="190" width="80" height="30" rx="12" fill="#1e293b"/>
+          <rect x="926" y="201" width="52" height="8" rx="4" fill="#94a3b8"/>
+        </g>
+        <g opacity="0">
+          <animate attributeName="opacity" dur="8s" repeatCount="indefinite" values="0;0;1;1;0" keyTimes="0;0.62;0.65;0.9;1"/>
+          <rect x="965" y="230" width="120" height="44" rx="12" fill="url(#bubble)"/>
+          <rect x="976" y="241" width="72" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.9"/>
+          <rect x="976" y="255" width="58" height="10" rx="5" fill="#34d399"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="339" rx="24" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+</svg>
