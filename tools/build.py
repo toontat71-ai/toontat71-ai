@@ -10,6 +10,7 @@ Brand colours come from each product's own theme:
 Logos are embedded as data URIs because GitHub blocks external files inside SVGs.
 """
 import base64
+import hashlib
 import io
 import re
 from pathlib import Path
@@ -258,8 +259,16 @@ def main():
                    title="#ffffff", muted=S["muted"], text="#cbd5e1", chip=S["light"], chiptext="#e2e8f0"),
     ), encoding="utf-8")
 
+    # Cache-busting: browsers keep GitHub images for minutes, so point the
+    # README at "<file>.svg?v=<hash of contents>". A changed graphic gets a
+    # new URL and shows up immediately.
+    readme = ROOT / "README.md"
+    text = readme.read_text(encoding="utf-8")
     for f in sorted(OUT.glob("*.svg")):
-        print(f"{f.name:24} {f.stat().st_size // 1024} KB")
+        digest = hashlib.sha1(f.read_bytes()).hexdigest()[:8]
+        text = re.sub(rf"assets/{re.escape(f.name)}(\?v=[0-9a-f]+)?", f"assets/{f.name}?v={digest}", text)
+        print(f"{f.name:24} {f.stat().st_size // 1024:3} KB  v={digest}")
+    readme.write_text(text, encoding="utf-8")
 
 
 if __name__ == "__main__":

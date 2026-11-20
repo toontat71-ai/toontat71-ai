@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Sellora Tech: AI sales agents, restaurant systems and open-source tools, built in Bangladesh">
+  <img src="assets/banner.svg?v=84117a33" width="100%" alt="Sellora Tech: AI sales agents, restaurant systems and open-source tools, built in Bangladesh">
 </p>
 
 <p align="center">
@@ -11,12 +11,12 @@
 <h2 align="center">What we're building</h2>
 
 <p align="center">
-  <img src="assets/card-bikroyee.svg" width="49%" alt="Bikroyee: AI sales agent for online sellers. Live.">
-  <img src="assets/card-amar-restora.svg" width="49%" alt="Amar Restora (আমার রেস্তোরাঁ): restaurant system. In development.">
+  <img src="assets/card-bikroyee.svg?v=54e4dc31" width="49%" alt="Bikroyee: AI sales agent for online sellers. Live.">
+  <img src="assets/card-amar-restora.svg?v=27f07b93" width="49%" alt="Amar Restora (আমার রেস্তোরাঁ): restaurant system. In development.">
 </p>
 <p align="center">
   <a href="https://github.com/toontat71-ai/sellora-emulator">
-    <img src="assets/card-emulator.svg" width="49%" alt="Sellora Emulator: lightweight Android emulator for low-end Windows PCs. Open source.">
+    <img src="assets/card-emulator.svg?v=e90fc2ce" width="49%" alt="Sellora Emulator: lightweight Android emulator for low-end Windows PCs. Open source.">
   </a>
 </p>
 
@@ -53,5 +53,5 @@ const selloraTech = {
 ```
 
 <p align="center">
-  <img src="assets/footer.svg" width="100%" alt="Built in Bangladesh. Thanks for visiting.">
+  <img src="assets/footer.svg?v=a1d2f2fd" width="100%" alt="Built in Bangladesh. Thanks for visiting.">
 </p>
